@@ -17,7 +17,7 @@ public class Main {
     public static void main(String[] args) {
         Person person;
         person = new Person("David Barcon", LocalDate.of(1998, Month.OCTOBER, 6));
-        System.out.println(person.getName() + " " + person.getAge());
+        System.out.println(person.getName() + " " + person.getAge() + " años");
     }
     
 }
